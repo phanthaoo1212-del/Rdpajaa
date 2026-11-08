@@ -1,25 +1,25 @@
 {
   "active": true,
-  "hostname": "bagas-1",
+  "hostname": "bagas-2",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "disk_free_gb": 80.3,
     "ram_gb": 16.0,
+    "disk_free_gb": 77.4,
     "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-08T04:21:32Z",
-  "expires_at": "2026-11-08T10:03:32Z",
+  "started_at": "2026-11-08T10:11:59Z",
+  "expires_at": "2026-11-08T15:53:59Z",
   "duration_menit": 342,
-  "run_id": "42446424759",
+  "run_id": "42470327520",
   "run_attempt": "1",
-  "run_number": "1",
-  "run_url": "https://github.com/phanthaoo1212-del/Rdpajaa/actions/runs/42446424759",
+  "run_number": "2",
+  "run_url": "https://github.com/phanthaoo1212-del/Rdpajaa/actions/runs/42470327520",
   "mode": "bersih+win10",
   "runtimes": {
     "mode": "cepat",
@@ -36,30 +36,36 @@
     "vc2008x64": "dilewati (mode cepat)",
     "vc2005x64": "dilewati (mode cepat)"
   },
+  "persist": {
+    "source": "xyrdp-state.7z.enc",
+    "files": 147,
+    "restored": true,
+    "profile": "C:\\Users\\xyadmin"
+  },
   "storage": {
     "status": "ok",
     "mode": "boost-ringan",
-    "before_gb": 80.25,
-    "after_gb": 116.98,
-    "gained_gb": 36.73,
+    "before_gb": 77.37,
+    "after_gb": 114.09,
+    "gained_gb": 36.72,
     "removed_targets": 31,
     "drives": [
       {
-        "free_gb": 116.98,
-        "size_gb": 255.45,
         "letter": "C",
-        "used_gb": 138.47
+        "size_gb": 255.45,
+        "free_gb": 114.09,
+        "used_gb": 141.36
       },
       {
-        "free_gb": 146.98,
-        "size_gb": 150.0,
         "letter": "D",
-        "used_gb": 3.01
+        "size_gb": 219.98,
+        "free_gb": 219.84,
+        "used_gb": 0.14
       }
     ],
     "game_dir": "D:\\Games (disarankan untuk GTA)",
     "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa.",
-    "updated_at": "2026-11-08T04:28:57.7350082Z"
+    "updated_at": "2026-11-08T10:17:40.9124183Z"
   },
   "fps_boost": {
     "status": "ok",
@@ -75,9 +81,9 @@
     ],
     "skipped": [],
     "applied_count": 8,
-    "elapsed_sec": 1.4,
+    "elapsed_sec": 1.3,
     "note": "Tweak rendering RDP & scheduler OS. Tidak menaikkan FPS game 3D tanpa GPU fisik; Mesa3D/WARP tetap dipakai.",
-    "updated_at": "2026-11-08T04:28:59.5422384Z"
+    "updated_at": "2026-11-08T10:17:42.554995Z"
   },
   "win10": {
     "look": "ok",
@@ -88,18 +94,18 @@
     "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
   },
   "media": {
+    "wallpaper": "xyverse_configured_for_user_logon",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "microphone": "rdp_capture_enabled",
-    "wallpaper": "xyverse_configured_for_user_logon",
     "audio_output": "rdp_playback_enabled"
   },
   "grafis": {
-    "adapters": "Microsoft Hyper-V Video",
     "path": "C:\\XyRDP\\grafis\\mesa-x64",
-    "mode": "software",
-    "mesa": "26.2.6",
     "vulkan": "lavapipe 1.3 (CPU)",
-    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)"
+    "adapters": "Microsoft Hyper-V Video",
+    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
+    "mesa": "26.2.6",
+    "mode": "software"
   },
   "games": {
     "roblox": {
@@ -107,28 +113,28 @@
       "catatan": "Instalasi resmi Roblox siap. VM dapat ditolak anti-cheat Roblox; tidak ada spoofing BIOS/bypass.",
       "status": "installer_ready"
     },
-    "ets2": {
+    "minecraft_java": {
+      "official_exe": true,
+      "tlauncher_jar": true,
+      "opengl46": false,
       "status": "ready",
-      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1"
-    },
-    "memu": {
-      "status": "ready",
-      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1"
+      "prismlauncher": false
     },
     "blender": {
-      "status": "ready",
-      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1"
+      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1",
+      "status": "ready"
     },
-    "minecraft_java": {
-      "tlauncher_jar": true,
-      "official_exe": true,
-      "opengl46": false,
-      "prismlauncher": true,
+    "ets2": {
+      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1",
+      "status": "ready"
+    },
+    "memu": {
+      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1",
       "status": "ready"
     },
     "fivem": {
-      "status": true,
-      "sound": true
+      "sound": true,
+      "status": true
     }
   },
   "extras": {
@@ -140,8 +146,8 @@
     "admin": true
   },
   "tools_hub": {
-    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe",
     "auto_start": true,
+    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe",
     "installed": true
   },
   "xydesk": {
@@ -162,21 +168,21 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "tunnel": {
+    "tailscale": {
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "hostname": "Bagas",
       "status": "ok",
-      "outside": "tailscale",
-      "address": "100.87.132.109:3389",
-      "port": 3389,
-      "host": "100.87.132.109",
-      "selftest": "ok"
+      "ip": "100.65.176.32",
+      "magicdns": "bagas.tail03e0a8.ts.net."
     },
     "mode": "tailscale",
-    "tailscale": {
+    "tunnel": {
+      "host": "100.65.176.32",
       "status": "ok",
-      "ip": "100.87.132.109",
-      "magicdns": "bagas.tail03e0a8.ts.net.",
-      "hostname": "Bagas",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+      "selftest": "ok",
+      "address": "100.65.176.32:3389",
+      "outside": "tailscale",
+      "port": 3389
     }
   }
 }
